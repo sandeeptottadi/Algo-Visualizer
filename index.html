@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algo Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+    </link>
+    <script src="script.js" defer></script>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Sono:wght@200&display=swap" rel="stylesheet">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@900&family=Sono:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./logo.png" />
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <img src="./logo.png" width="35" height="35" class="logo"></img>
+            <div class="title">Algo Visualizer</div>
+            <div class="items">
+                <div class="item">
+                    <img src="./c_icon.png" height="25" width="25" />
+                    <a href="https://sandeeptottadi.github.io/Pathfinding-Visualizer">Pathfinding Visualizer</a>
+                </div>
+                <div class="item">
+                    <img src="https://raw.githubusercontent.com/clementmihailescu/Sorting-Visualizer/master/client/styling/icon.ico"
+                        height="25" width="25" />
+                    <a href="https://sandeeptottadi.github.io/Sorting-Visualizer">Sorting Visualizer</a>
+                </div>
+            </div>
+        </nav>
+        <div class="section">
+            <div class="visualizer">
+                <div class="visu-container">
+                    <div class="visu-content">
+                        <div class="visu-title">Pathfinding Visualizer</div>
+                        <div class="visu-text">
+                            A pathfinding visualizer is a tool that allows users to visualize the process of finding
+                            a
+                            path between two points in a graph or a grid. The tool typically provides a graphical
+                            user
+                            interface that allows the user to interact with the graph or grid, select a starting
+                            point
+                            and an ending point, and choose a pathfinding algorithm to visualize.
+                            The pathfinding algorithms typically supported by a visualizer include popular
+                            algorithms
+                            like Dijkstra's algorithm, A* search, breadth-first search, and depth-first search. The
+                            visualizer allows users to observe how these algorithms explore the graph or grid,
+                            evaluate
+                            the cost of reaching each node, and determine the optimal path to the destination.
+                        </div>
+                        <button onclick="path()">Pathfinding Visualizer</button>
+                    </div>
+                    <div class="visu-img">
+                        <img src="./c_icon.png" width="240" height="240" />
+                    </div>
+                </div>
+            </div>
+            <div class="visualizer">
+                <div class="visu-container">
+                    <div class="visu-img">
+                        <img src="https://raw.githubusercontent.com/clementmihailescu/Sorting-Visualizer/master/client/styling/icon.ico"
+                            width="240" height="240" />
+                    </div>
+                    <div class="visu-content">
+                        <div class="visu-title">Sorting Visualizer</div>
+                        <div class="visu-text">A sorting visualizer is a tool that allows users to visualize the process
+                            of sorting a set of data. The tool typically provides a graphical user interface that allows
+                            the user to interact with the data, select a sorting algorithm to visualize, and adjust the
+                            parameters of the algorithm.
+
+                            The sorting algorithms typically supported by a visualizer include popular algorithms like
+                            bubble sort, insertion sort, selection sort, merge sort, quick sort, and heap sort. The
+                            visualizer allows users to observe how these algorithms rearrange the data, compare the
+                            values of the data, and determine the order in which the data should be sorted
+                        </div>
+                        <button onclick="sorting()">Sorting
+                            Visualizer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
